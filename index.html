@@ -98,147 +98,164 @@
   }
   </script>
 </head>
-<body class="bg-slate-50 text-slate-900 antialiased">
-  <div class="min-h-screen bg-gradient-to-b from-cyan-100 via-white to-teal-50">
-    <header class="sticky top-0 z-20 border-b border-cyan-100 bg-white/90 backdrop-blur" role="banner">
-      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a href="#home" class="text-xl font-extrabold tracking-tight text-cyan-900" aria-label="HealthCore home">HealthCore</a>
-        <nav aria-label="Primary navigation" class="hidden gap-6 text-sm font-semibold text-slate-700 md:flex">
-          <a href="#home" class="transition hover:text-cyan-700">Home</a>
-          <a href="#services" class="transition hover:text-cyan-700">Services</a>
-          <a href="#locations" class="transition hover:text-cyan-700">Locations</a>
-          <a href="#contact" class="transition hover:text-cyan-700">Contact</a>
-        </nav>
-        <div class="flex items-center gap-3" aria-label="Language switcher">
-          <span class="rounded-full bg-cyan-800 px-3 py-1 text-xs font-bold text-white">EN</span>
-          <a href="index.es.html" class="text-xs font-bold text-cyan-900 underline-offset-4 hover:underline">ES</a>
-        </div>
-      </div>
-    </header>
-
-    <main id="home" role="main">
-      <section class="mx-auto grid max-w-6xl gap-8 px-4 pb-14 pt-10 sm:px-6 lg:grid-cols-5 lg:px-8 lg:pt-14" aria-labelledby="hero-title">
-        <article class="lg:col-span-3">
-          <p class="mb-4 inline-flex rounded-full border border-cyan-200 bg-white px-3 py-1 text-xs font-bold uppercase tracking-[0.14em] text-cyan-800">Outpatient Care Network</p>
-          <h1 id="hero-title" class="text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl">Healthcare that fits your life</h1>
-          <p class="mt-5 max-w-2xl text-base leading-7 text-slate-700 sm:text-lg">12 outpatient clinics across the US and UK offering same-day appointments, extended hours, and bilingual care so you can get the attention you need, when you need it.</p>
-          <div class="mt-8 flex flex-wrap gap-4">
-            <a href="application.html" class="rounded-xl bg-cyan-800 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-cyan-200 transition hover:bg-cyan-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-800" aria-label="Request an appointment">Request an appointment</a>
-            <a href="#locations" class="rounded-xl border border-cyan-200 bg-white px-6 py-3 text-sm font-bold text-cyan-900 transition hover:bg-cyan-50">Find a clinic</a>
+<body class="bg-slate-950 text-slate-100 antialiased">
+  <div class="relative min-h-screen overflow-hidden bg-slate-950">
+    <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(34,211,238,0.22),transparent_35%),radial-gradient(circle_at_85%_15%,rgba(56,189,248,0.22),transparent_33%),linear-gradient(180deg,#020617_0%,#082f49_55%,#0f172a_100%)]"></div>
+    <div class="relative">
+      <header class="sticky top-0 z-20 border-b border-cyan-200/20 bg-slate-950/80 backdrop-blur-xl" role="banner">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+          <a href="#home" class="text-xl font-extrabold tracking-tight text-white" aria-label="HealthCore home">HealthCore</a>
+          <nav aria-label="Primary navigation" class="hidden gap-7 text-sm font-semibold text-slate-200 md:flex">
+            <a href="#home" class="transition hover:text-cyan-300">Home</a>
+            <a href="#services" class="transition hover:text-cyan-300">Services</a>
+            <a href="#locations" class="transition hover:text-cyan-300">Locations</a>
+            <a href="#contact" class="transition hover:text-cyan-300">Contact</a>
+          </nav>
+          <div class="flex items-center gap-3" aria-label="Language switcher">
+            <span class="rounded-full bg-white px-3 py-1 text-xs font-bold text-slate-950">EN</span>
+            <a href="index.es.html" class="text-xs font-bold text-cyan-200 underline-offset-4 hover:underline">ES</a>
           </div>
-        </article>
-        <article class="lg:col-span-2">
-          <div class="h-full rounded-3xl bg-gradient-to-br from-cyan-800 to-teal-700 p-6 text-cyan-50 shadow-xl shadow-cyan-200">
-            <h2 class="text-lg font-extrabold">What patients value most</h2>
-            <ul class="mt-4 space-y-3 text-sm leading-6">
-              <li>Same-day appointments at most US locations</li>
-              <li>Extended weekday hours and Saturday availability</li>
-              <li>Bilingual support in English and Spanish in the US</li>
-            </ul>
+        </div>
+      </header>
+
+      <main id="home" role="main" class="pb-12">
+        <section class="mx-auto grid max-w-6xl gap-8 px-4 pb-12 pt-12 sm:px-6 lg:grid-cols-12 lg:px-8 lg:pt-16" aria-labelledby="hero-title">
+          <article class="lg:col-span-7">
+            <p class="mb-4 inline-flex rounded-full border border-cyan-200/50 bg-cyan-200/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-cyan-200">Outpatient Care Network</p>
+            <h1 id="hero-title" class="text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">Healthcare that fits your life</h1>
+            <p class="mt-5 max-w-2xl text-base leading-7 text-cyan-50/90 sm:text-lg">12 outpatient clinics across the US and UK offering same-day appointments, extended hours, and bilingual care so you can get the attention you need, when you need it.</p>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a href="application.html" class="rounded-xl bg-cyan-400 px-6 py-3 text-sm font-extrabold text-slate-950 shadow-lg shadow-cyan-400/30 transition duration-300 hover:-translate-y-0.5 hover:bg-cyan-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-200" aria-label="Request an appointment">Request an appointment</a>
+              <a href="#locations" class="rounded-xl border border-cyan-100/40 bg-white/5 px-6 py-3 text-sm font-bold text-cyan-100 transition duration-300 hover:bg-white/10">Find a clinic</a>
+            </div>
+            <div class="mt-8 grid gap-3 sm:grid-cols-3">
+              <div class="rounded-xl border border-cyan-200/20 bg-slate-900/70 p-4">
+                <p class="text-2xl font-extrabold text-cyan-300">12</p>
+                <p class="text-xs uppercase tracking-[0.14em] text-slate-300">Clinics</p>
+              </div>
+              <div class="rounded-xl border border-cyan-200/20 bg-slate-900/70 p-4">
+                <p class="text-2xl font-extrabold text-cyan-300">Same-Day</p>
+                <p class="text-xs uppercase tracking-[0.14em] text-slate-300">Appointments</p>
+              </div>
+              <div class="rounded-xl border border-cyan-200/20 bg-slate-900/70 p-4">
+                <p class="text-2xl font-extrabold text-cyan-300">EN / ES</p>
+                <p class="text-xs uppercase tracking-[0.14em] text-slate-300">Bilingual Team</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="lg:col-span-5">
+            <div class="overflow-hidden rounded-3xl border border-cyan-100/20 bg-white/10 shadow-2xl shadow-cyan-900/40 backdrop-blur-md">
+              <img src="https://images.pexels.com/photos/8376293/pexels-photo-8376293.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Doctor and patient reviewing healthcare options in a modern outpatient clinic" class="h-56 w-full object-cover" loading="lazy" decoding="async" />
+              <div class="p-7">
+                <h2 class="text-lg font-extrabold text-white">What patients value most</h2>
+                <ul class="mt-5 space-y-4 text-sm leading-6 text-cyan-50">
+                  <li class="rounded-lg border border-cyan-200/25 bg-slate-950/30 p-3">Same-day appointments at most US locations</li>
+                  <li class="rounded-lg border border-cyan-200/25 bg-slate-950/30 p-3">Extended weekday hours and Saturday availability</li>
+                  <li class="rounded-lg border border-cyan-200/25 bg-slate-950/30 p-3">Bilingual support in English and Spanish in the US</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section id="services" class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8" aria-labelledby="services-title">
+          <div class="mb-6 flex items-end justify-between gap-4">
+            <h2 id="services-title" class="text-3xl font-extrabold text-white">Services</h2>
+            <p class="hidden text-sm text-cyan-100 md:block">Coordinated outpatient care built around availability and continuity.</p>
           </div>
-        </article>
-      </section>
+          <div class="grid gap-5 md:grid-cols-3">
+            <article class="rounded-2xl border border-cyan-200/20 bg-white/10 p-6 shadow-xl backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-white/15">
+              <h3 class="text-lg font-bold text-cyan-100">Primary Care &amp; Chronic Disease</h3>
+              <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-100">
+                <li>Same-day appointments with primary care physicians</li>
+                <li>Ongoing management of diabetes, hypertension, and asthma</li>
+              </ul>
+            </article>
+            <article class="rounded-2xl border border-cyan-200/20 bg-white/10 p-6 shadow-xl backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-white/15">
+              <h3 class="text-lg font-bold text-cyan-100">Specialist Consultations</h3>
+              <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-100">
+                <li>Cardiology, endocrinology, pulmonology, and women's health</li>
+                <li>Referrals coordinated within the HealthCore network</li>
+              </ul>
+            </article>
+            <article class="rounded-2xl border border-cyan-200/20 bg-white/10 p-6 shadow-xl backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-white/15">
+              <h3 class="text-lg font-bold text-cyan-100">Preventive Health &amp; Wellbeing</h3>
+              <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-100">
+                <li>Screenings, vaccinations, and annual check-ups</li>
+                <li>Mental health counselling and psychiatry referrals</li>
+              </ul>
+            </article>
+          </div>
+        </section>
 
-      <section id="services" class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8" aria-labelledby="services-title">
-        <h2 id="services-title" class="text-3xl font-extrabold text-slate-900">Services</h2>
-        <div class="mt-6 grid gap-5 md:grid-cols-3">
-          <article class="rounded-2xl border border-cyan-100 bg-white p-6 shadow-sm">
-            <h3 class="text-lg font-bold text-cyan-900">Primary Care &amp; Chronic Disease</h3>
-            <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-700">
-              <li>Same-day appointments with primary care physicians</li>
-              <li>Ongoing management of diabetes, hypertension, and asthma</li>
-            </ul>
-          </article>
-          <article class="rounded-2xl border border-cyan-100 bg-white p-6 shadow-sm">
-            <h3 class="text-lg font-bold text-cyan-900">Specialist Consultations</h3>
-            <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-700">
-              <li>Cardiology, endocrinology, pulmonology, and women's health</li>
-              <li>Referrals coordinated within the HealthCore network</li>
-            </ul>
-          </article>
-          <article class="rounded-2xl border border-cyan-100 bg-white p-6 shadow-sm">
-            <h3 class="text-lg font-bold text-cyan-900">Preventive Health &amp; Wellbeing</h3>
-            <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-700">
-              <li>Screenings, vaccinations, and annual check-ups</li>
-              <li>Mental health counselling and psychiatry referrals</li>
-            </ul>
-          </article>
+        <section class="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8" aria-label="HealthCore patient care imagery">
+          <div class="grid gap-5 md:grid-cols-2">
+            <figure class="overflow-hidden rounded-2xl border border-cyan-200/20 bg-white/5">
+              <img src="https://images.pexels.com/photos/7088530/pexels-photo-7088530.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Healthcare professional in consultation with a patient in a bright clinic room" class="h-64 w-full object-cover" loading="lazy" decoding="async" />
+              <figcaption class="px-4 py-3 text-xs text-cyan-100">Personalized outpatient care focused on continuity and prevention.</figcaption>
+            </figure>
+            <figure class="overflow-hidden rounded-2xl border border-cyan-200/20 bg-white/5">
+              <img src="https://images.pexels.com/photos/6129673/pexels-photo-6129673.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Medical team collaborating around a digital patient record" class="h-64 w-full object-cover" loading="lazy" decoding="async" />
+              <figcaption class="px-4 py-3 text-xs text-cyan-100">Coordinated care teams delivering specialist and preventive services.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8" aria-labelledby="why-title">
+          <h2 id="why-title" class="text-3xl font-extrabold text-white">Why HealthCore</h2>
+          <div class="mt-6 grid gap-4 md:grid-cols-2">
+            <article class="rounded-2xl border border-emerald-200/25 bg-emerald-300/10 p-6 text-emerald-50 shadow-lg shadow-emerald-900/20">Same-day appointments at most locations</article>
+            <article class="rounded-2xl border border-emerald-200/25 bg-emerald-300/10 p-6 text-emerald-50 shadow-lg shadow-emerald-900/20">Extended hours weekdays until 7pm or 8pm, with Saturdays available</article>
+            <article class="rounded-2xl border border-emerald-200/25 bg-emerald-300/10 p-6 text-emerald-50 shadow-lg shadow-emerald-900/20">Bilingual staff in English and Spanish at US locations</article>
+            <article class="rounded-2xl border border-emerald-200/25 bg-emerald-300/10 p-6 text-emerald-50 shadow-lg shadow-emerald-900/20">12 clinics across Texas, Florida, Georgia, and the United Kingdom</article>
+          </div>
+        </section>
+
+        <section id="locations" class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8" aria-labelledby="locations-title">
+          <h2 id="locations-title" class="text-3xl font-extrabold text-white">Locations</h2>
+          <p class="mt-2 text-sm text-cyan-100">US clinics open to public web enquiries. UK clinics serve a separate market and are not included in this public-facing site.</p>
+          <div class="mt-6 overflow-x-auto rounded-2xl border border-cyan-100/20 bg-slate-950/60 shadow-2xl backdrop-blur-sm">
+            <table class="min-w-full text-left text-sm" role="table" aria-label="HealthCore US clinic locations and hours">
+              <thead class="bg-cyan-300 text-slate-950">
+                <tr>
+                  <th class="px-4 py-3 font-extrabold">Clinic name</th>
+                  <th class="px-4 py-3 font-extrabold">City</th>
+                  <th class="px-4 py-3 font-extrabold">State</th>
+                  <th class="px-4 py-3 font-extrabold">Phone</th>
+                  <th class="px-4 py-3 font-extrabold">Hours</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-cyan-100/15 text-slate-100">
+                <tr class="hover:bg-cyan-100/5"><td class="px-4 py-3">HealthCore Austin Central</td><td class="px-4 py-3">Austin</td><td class="px-4 py-3">TX</td><td class="px-4 py-3">(512) 340-8800</td><td class="px-4 py-3">Mon-Fri 7am-8pm · Sat 9am-3pm</td></tr>
+                <tr class="hover:bg-cyan-100/5"><td class="px-4 py-3">HealthCore Austin North</td><td class="px-4 py-3">Austin</td><td class="px-4 py-3">TX</td><td class="px-4 py-3">(512) 340-8810</td><td class="px-4 py-3">Mon-Fri 8am-7pm</td></tr>
+                <tr class="hover:bg-cyan-100/5"><td class="px-4 py-3">HealthCore San Antonio</td><td class="px-4 py-3">San Antonio</td><td class="px-4 py-3">TX</td><td class="px-4 py-3">(210) 720-4400</td><td class="px-4 py-3">Mon-Fri 8am-6pm · Sat 9am-1pm</td></tr>
+                <tr class="hover:bg-cyan-100/5"><td class="px-4 py-3">HealthCore Miami</td><td class="px-4 py-3">Miami</td><td class="px-4 py-3">FL</td><td class="px-4 py-3">(305) 510-7700</td><td class="px-4 py-3">Mon-Fri 7am-8pm · Sat 9am-4pm</td></tr>
+                <tr class="hover:bg-cyan-100/5"><td class="px-4 py-3">HealthCore Orlando</td><td class="px-4 py-3">Orlando</td><td class="px-4 py-3">FL</td><td class="px-4 py-3">(407) 892-6600</td><td class="px-4 py-3">Mon-Fri 8am-6pm</td></tr>
+                <tr class="hover:bg-cyan-100/5"><td class="px-4 py-3">HealthCore Atlanta</td><td class="px-4 py-3">Atlanta</td><td class="px-4 py-3">GA</td><td class="px-4 py-3">(404) 330-9900</td><td class="px-4 py-3">Mon-Fri 8am-7pm</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="contact" class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8" aria-labelledby="contact-title">
+          <h2 id="contact-title" class="text-3xl font-extrabold text-white">Contact</h2>
+          <div class="mt-6 grid gap-4 sm:grid-cols-2">
+            <article class="rounded-2xl border border-cyan-200/20 bg-white/10 p-5 backdrop-blur-md"><h3 class="font-bold text-cyan-100">General enquiries</h3><p class="mt-1 text-sm text-slate-100">info@healthcore.com</p></article>
+            <article class="rounded-2xl border border-cyan-200/20 bg-white/10 p-5 backdrop-blur-md"><h3 class="font-bold text-cyan-100">Austin HQ</h3><p class="mt-1 text-sm text-slate-100">(512) 340-8800</p></article>
+            <article class="rounded-2xl border border-cyan-200/20 bg-white/10 p-5 backdrop-blur-md"><h3 class="font-bold text-cyan-100">Miami</h3><p class="mt-1 text-sm text-slate-100">(305) 510-7700</p></article>
+            <article class="rounded-2xl border border-cyan-200/20 bg-white/10 p-5 backdrop-blur-md"><h3 class="font-bold text-cyan-100">UK (London)</h3><p class="mt-1 text-sm text-slate-100">+44 20 7946 0100</p></article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="border-t border-cyan-200/20 bg-slate-950/80">
+        <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-cyan-100 sm:px-6 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+          <p>© 2025 HealthCore. All rights reserved.</p>
+          <p class="font-medium">LinkedIn | Facebook | Instagram</p>
         </div>
-      </section>
-
-      <section class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8" aria-labelledby="why-title">
-        <h2 id="why-title" class="text-3xl font-extrabold text-slate-900">Why HealthCore</h2>
-        <div class="mt-6 grid gap-5 md:grid-cols-2">
-          <article class="rounded-2xl border border-teal-100 bg-teal-50 p-6">
-            <p class="font-semibold text-slate-800">Same-day appointments at most locations</p>
-          </article>
-          <article class="rounded-2xl border border-teal-100 bg-teal-50 p-6">
-            <p class="font-semibold text-slate-800">Extended hours weekdays until 7pm or 8pm, with Saturdays available</p>
-          </article>
-          <article class="rounded-2xl border border-teal-100 bg-teal-50 p-6">
-            <p class="font-semibold text-slate-800">Bilingual staff in English and Spanish at US locations</p>
-          </article>
-          <article class="rounded-2xl border border-teal-100 bg-teal-50 p-6">
-            <p class="font-semibold text-slate-800">12 clinics across Texas, Florida, Georgia, and the United Kingdom</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="locations" class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8" aria-labelledby="locations-title">
-        <h2 id="locations-title" class="text-3xl font-extrabold text-slate-900">Locations</h2>
-        <p class="mt-2 text-sm text-slate-700">US clinics open to public web enquiries. UK clinics serve a separate market and are not included in this public-facing site.</p>
-        <div class="mt-6 overflow-x-auto rounded-2xl border border-cyan-100 bg-white shadow-sm">
-          <table class="min-w-full text-left text-sm" role="table" aria-label="HealthCore US clinic locations and hours">
-            <thead class="bg-cyan-800 text-white">
-              <tr>
-                <th class="px-4 py-3 font-semibold">Clinic name</th>
-                <th class="px-4 py-3 font-semibold">City</th>
-                <th class="px-4 py-3 font-semibold">State</th>
-                <th class="px-4 py-3 font-semibold">Phone</th>
-                <th class="px-4 py-3 font-semibold">Hours</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-slate-100 text-slate-800">
-              <tr><td class="px-4 py-3">HealthCore Austin Central</td><td class="px-4 py-3">Austin</td><td class="px-4 py-3">TX</td><td class="px-4 py-3">(512) 340-8800</td><td class="px-4 py-3">Mon-Fri 7am-8pm · Sat 9am-3pm</td></tr>
-              <tr><td class="px-4 py-3">HealthCore Austin North</td><td class="px-4 py-3">Austin</td><td class="px-4 py-3">TX</td><td class="px-4 py-3">(512) 340-8810</td><td class="px-4 py-3">Mon-Fri 8am-7pm</td></tr>
-              <tr><td class="px-4 py-3">HealthCore San Antonio</td><td class="px-4 py-3">San Antonio</td><td class="px-4 py-3">TX</td><td class="px-4 py-3">(210) 720-4400</td><td class="px-4 py-3">Mon-Fri 8am-6pm · Sat 9am-1pm</td></tr>
-              <tr><td class="px-4 py-3">HealthCore Miami</td><td class="px-4 py-3">Miami</td><td class="px-4 py-3">FL</td><td class="px-4 py-3">(305) 510-7700</td><td class="px-4 py-3">Mon-Fri 7am-8pm · Sat 9am-4pm</td></tr>
-              <tr><td class="px-4 py-3">HealthCore Orlando</td><td class="px-4 py-3">Orlando</td><td class="px-4 py-3">FL</td><td class="px-4 py-3">(407) 892-6600</td><td class="px-4 py-3">Mon-Fri 8am-6pm</td></tr>
-              <tr><td class="px-4 py-3">HealthCore Atlanta</td><td class="px-4 py-3">Atlanta</td><td class="px-4 py-3">GA</td><td class="px-4 py-3">(404) 330-9900</td><td class="px-4 py-3">Mon-Fri 8am-7pm</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section id="contact" class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8" aria-labelledby="contact-title">
-        <h2 id="contact-title" class="text-3xl font-extrabold text-slate-900">Contact</h2>
-        <div class="mt-6 grid gap-4 sm:grid-cols-2">
-          <article class="rounded-2xl border border-cyan-100 bg-white p-5">
-            <h3 class="font-bold text-cyan-900">General enquiries</h3>
-            <p class="mt-1 text-sm text-slate-700">info@healthcore.com</p>
-          </article>
-          <article class="rounded-2xl border border-cyan-100 bg-white p-5">
-            <h3 class="font-bold text-cyan-900">Austin HQ</h3>
-            <p class="mt-1 text-sm text-slate-700">(512) 340-8800</p>
-          </article>
-          <article class="rounded-2xl border border-cyan-100 bg-white p-5">
-            <h3 class="font-bold text-cyan-900">Miami</h3>
-            <p class="mt-1 text-sm text-slate-700">(305) 510-7700</p>
-          </article>
-          <article class="rounded-2xl border border-cyan-100 bg-white p-5">
-            <h3 class="font-bold text-cyan-900">UK (London)</h3>
-            <p class="mt-1 text-sm text-slate-700">+44 20 7946 0100</p>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="border-t border-cyan-100 bg-white">
-      <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-slate-700 sm:px-6 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-        <p>© 2025 HealthCore. All rights reserved.</p>
-        <p class="font-medium">LinkedIn | Facebook | Instagram</p>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </div>
 </body>
 </html>
